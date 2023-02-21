@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SN0WX</title>
+    <link rel="stylesheet" href="style.css">
+    <!--<link href="https://fonts.googleapis.com/css?family=Archivo+Black&display=swap" rel="stylesheet">-->
+</head>
+<body>
+    <header class="heading">
+        <div class="logo">
+            <a href=""><h1>cheathub.</h1></a>
+        </div>
+        <div class="links">
+            <a href="">Home</a>
+            <a href="">Cheats</a>
+            <a href="">Games</a>
+            <a href="">Others</a>
+            <a href="">Contact</a>
+        </div>
+    </header>
+    <header class="mobile-view-header">
+        <div class="mhead">
+            <a href=""><h1 class="mlogo">C.</h1></a>
+        </div>
+        <div class="menu-mobile">
+            <div class="menu" onclick="menu(this)">
+                <div class="bar1"></div>
+                <div class="bar2"></div>
+                <div class="bar3"></div>
+            </div>
+        </div>
+    </header>
+
+    <div id="links" class="menu-links">
+        <div class="jslink">
+            <a href="">Home</a>
+        </div>
+        <div class="jslink">
+            <a href="">Cheats</a>
+        </div>
+        <div class="jslink">
+            <a href="">Games</a>
+        </div>
+        <div class="jslink">
+            <a href="">Others</a>
+        </div>
+        <div class="jslink">
+            <a href="">Contact</a>
+        </div>
+    </div>
+
+    <main class="mid-text">
+            <h1>School cheats and loads <br> more here at<br> <span class="clr">cheathub.</span></h1>
+            <button>Explore</button>
+    </main>
+    <script>
+        function menu(x) {
+            var o = document.getElementById("links");
+            x.classList.toggle("change");
+            o.classList.toggle("changelink");
+        }
+    </script>
+    <!--<h1>School cheats and loads more here at <span class="clr">cheathub.</span></h1>-->
+</body>
+</html>
